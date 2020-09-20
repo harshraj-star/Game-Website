@@ -1,0 +1,264 @@
+#logo img{
+    height: 50px;
+    margin: 8px 13px;
+    background-color: red;
+}
+
+#home{
+    background-color:#7070ac;
+}
+
+#home h1{
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+#navbar{
+    height: 4rem;
+    position: sticky;
+    display: flex;
+    background-color:#e5b4ac;
+    top: 0px;
+}
+
+#navbar ul{
+    display: flex;
+    padding: 4px 242px;
+    list-style: none;
+    
+    
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    font-family: 'Baloo Bhai', cursive;
+    padding: 0px 50px;
+    padding-bottom: 8px;
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    
+    color: white;
+}
+
+#home img{
+    height: 26rem;
+    min-width: -webkit-fill-available;
+}
+
+
+.search button{
+    background-color: #0074D9;
+    color: #f2f2f2;
+    float: right;
+    padding: 11px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+
+    flex: 25%;
+    max-width: 100%;
+    padding: 3px 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .container{
+    display: flex;
+
+}
+.card{
+    padding: 0px 12px;
+    margin: 17px 123px;
+    background-color: #36f1f1;
+}
+
+#card-1 img {
+    height: 9rem;
+   
+
+}
+
+#card-2 img {
+    height: 9rem;
+   
+
+}
+
+#card-3 img {
+    height: 9rem;
+   
+
+}
+
+#card-4 img {
+    height: 9rem;
+   
+
+}
+
+#card-5 img {
+    height: 9rem;
+   
+
+}
+
+#card-6 img {
+    height: 9rem;
+   
+
+}
+
+#card-7 img {
+    height: 8rem;
+   
+
+}
+
+#card-8 img {
+    height: 150px;
+   
+
+}
+
+#card-9 img {
+    height: 10rem;
+   
+
+}
+
+#store h1{
+    margin-top: 56px;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+#store{
+    background-color:#f6f656;
+
+}
+
+#store button {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#store button:hover {
+    cursor: pointer;
+    color:red;
+    background-color: white;
+}
+  
+.box {
+    width: 81rem;
+    height: 20rem;
+    background-color: #e3d7dd;
+    border-color: black;
+    border-radius: 15px;
+    box-shadow: 11px 11px #fa8fb6;
+}
+
+.box p{
+    color: green;
+    font-size: x-large;
+    padding: 18px 43px;
+    font-family: cursive;
+}
+
+#about h1{
+    margin-top: 58px;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+#about {
+    background-color:#7070ac;
+}
+.container1{
+    height: 24rem;
+    margin: 4rem;
+}
+
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../contact.jpg') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#contact-box form{
+    width: 100%;
+    margin: 30px 30rem;
+}
+
+#support h1{
+    color: white;
+    background-color:black;
+}
+
+#support {
+    background-color:#8fb9c0;
+}
+
+footer{
+    text-align: center;
+}
